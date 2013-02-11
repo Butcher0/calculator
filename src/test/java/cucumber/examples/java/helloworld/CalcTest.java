@@ -19,10 +19,10 @@ public class CalcTest {
 	public void testMultiplyNumbers(){
 		
 		Calculator calc = new Calculator();
-		calc.setNumbers(3);
+		calc.setNumbers(4);
 		calc.setNumbers(3);
 		calc.setCommand(Operand.MULTIPLY);
-		assertEquals(9, calc.getTall1() * calc.getTall2());
+		assertEquals(12, calc.getTall1() * calc.getTall2());
 		
 	}
 
