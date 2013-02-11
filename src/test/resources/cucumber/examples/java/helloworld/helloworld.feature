@@ -23,4 +23,11 @@ Scenario: add three numbers
 	And enter number "30"	
 	When pressing equals button
 	Then result should be "38"
+	
+Scenario: multiply two numbers
+	Given enter number "5"
+	And press multiply button	
+	And enter number "3"
+	When pressing equals button
+	Then result should be "15"
 			
