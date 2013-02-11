@@ -27,7 +27,7 @@ Scenario: add three numbers
 Scenario: multiply two numbers
 	Given enter number "5"
 	And press multiply button	
-	And enter number "3"
+	And enter number "4"
 	When pressing equals button
 	Then result should be "15"
 			
