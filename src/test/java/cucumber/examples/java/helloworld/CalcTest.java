@@ -1,6 +1,7 @@
 package cucumber.examples.java.helloworld;
 
 import static org.junit.Assert.*;
+import cucumber.examples.java.*;
 
 import org.junit.Test;
 
