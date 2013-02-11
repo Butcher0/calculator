@@ -14,5 +14,16 @@ public class CalcTest {
 		calc.setNumbers(3);
 		assertEquals(5, calc.getTall1() + calc.getTall2());
 	}
+	
+	@Test
+	public void testMultiplyNumbers(){
+		
+		Calculator calc = new Calculator();
+		calc.setNumbers(2);
+		calc.setNumbers(3);
+		calc.setCommand(Operand.MULTIPLY);
+		assertEquals(6, calc.getTall1() * calc.getTall2());
+		
+	}
 
 }
