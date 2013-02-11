@@ -20,9 +20,9 @@ public class CalcTest {
 		
 		Calculator calc = new Calculator();
 		calc.setNumbers(4);
-		calc.setNumbers(3);
+		calc.setNumbers(4);
 		calc.setCommand(Operand.MULTIPLY);
-		assertEquals(12, calc.getTall1() * calc.getTall2());
+		assertEquals(16, calc.getTall1() * calc.getTall2());
 		
 	}
 
